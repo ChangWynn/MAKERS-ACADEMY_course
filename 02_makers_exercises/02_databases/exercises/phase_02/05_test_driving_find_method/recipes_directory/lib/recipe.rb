@@ -1,0 +1,1 @@
+Recipe = Struct.new(:id, :name, :cooking_time, :rating)

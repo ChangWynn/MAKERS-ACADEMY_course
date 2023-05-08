@@ -1,0 +1,13 @@
+language: node_js
+node_js:
+  - "19.9.0"
+
+install:
+  - npm install
+
+script:
+  - jest
+
+cache:
+  directories:
+    - node_modules
